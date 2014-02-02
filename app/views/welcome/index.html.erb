@@ -1,0 +1,45 @@
+<div class="container fill">
+  <div class="col-xs-6">
+    <div class="col-xs-11 rect-bg">
+      <h2> About Derrick </h2>
+      <p> Derrick Mar is a 2nd year undergraduate at UC Berkeley double majoring in Business and Computer Science. He is interested in entrepreneurship as a means to invoke social change. </p>
+      <a class="fade_open pull-right" href="#fade">Read More</a>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Fade -->
+
+<div id="fade" class="well">
+    <h4>Fade example</h4>
+<pre class="prettyprint">
+<code>$('#fade').popup({
+  transition: 'all 0.3s'
+});</code>
+</pre>
+    <p>Or you can set transitions directly in CSS:</p>
+<pre class="prettyprint"><code>$('#fade').popup();</code></pre>
+<pre class="prettyprint"><code>#fade,
+#fade_wrapper,
+#fade_background {
+  -webkit-tranzition: all 0.3s;
+     -moz-tranzition: all 0.3s;
+          transition: all 0.3s;
+}
+</code>
+</pre>
+    <button class="fade_close fadeandscale_open btn btn-default">Next example</button>
+    <button class="fade_close btn btn-default">Close</button>
+</div>
+
+<script>
+$(document).ready(function () {
+
+    $('#fade').popup({
+      transition: 'all 0.3s'
+    });
+
+});
+</script>

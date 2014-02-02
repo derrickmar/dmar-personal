@@ -1,0 +1,35 @@
+html { 
+  background: url(/assets/bg17_10_small_2.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.rect-bg {
+  background: #cbc8cc;
+  height: auto;
+  margin: 50px 10px;
+  padding: 20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; /* future proofing */
+  -khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+
+.row {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+
+.fill {
+  height: 80%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}

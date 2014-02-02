@@ -1,0 +1,52 @@
+Started the 25th 
+
+full screen without scroll css notes
+
+
+Making a container 100% width of screen
+http://stackoverflow.com/questions/11677886/twitter-bootstrap-div-in-container-with-100-height
+
+
+Seeing what assets get loaded
+
+1. Type the url: localhost:3000/?debug_assets=1 
+2. Check what sources are being loaded by looking at the <head>.
+
+Adding jquery plugin to asset pipeline
+	Put the .js file in app/assets/javascripts
+	Check if the asset was loaded
+	
+
+http://stackoverflow.com/questions/9094788/how-do-i-add-a-jquery-plugin-to-rails-3-1
+
+Adding font-families
+
+
+Popup overlay jquery plugin
+
+
+
+
+> sign css:
+	Ex: .rect-bg > h2
+	Means direct child
+	
+CSS Sprites
+	1. Get the sprites image
+	2. See if you can use Sprite Cow to identify the position of the image (just copy and paste the css)
+	3. If it cannot identify the image, then use photoshop/gimp to clean it up (make background look different color from icons so Sprite Cow can identify)
+	4. Use sprite cow again
+	5. The css of sprite cow should include background image, 
+		Example
+			.fb {
+			  background: url(/assets/smi.png) no-repeat -12px -7px;
+			  width: 64px;
+			  height: 64px;
+			  display: inline-block;
+			}
+	6. The reason why we have inline-block is because sometimes elements like <span> are inline by default which make height and width not work.
+	
+	
+Receiving e-mails from users (contact page)
+http://stackoverflow.com/questions/3689730/contact-us-functionality-in-rails-3
+	

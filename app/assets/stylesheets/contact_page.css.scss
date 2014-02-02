@@ -1,0 +1,36 @@
+// Place all the styles related to the ContactPage controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.sprites {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 10px;
+}
+
+.fb {
+  background: url(/assets/smi32.png) no-repeat -9px -4px;;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+
+.fb:hover {
+  background: url(/assets/smi32.png) no-repeat -49px -4px;
+  width: 32px;
+  height: 32px;
+}
+
+.linkedin {
+  background: url(/assets/smi32.png) no-repeat -91px -4px;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+
+.linkedin:hover {
+  background: url(/assets/smi32.png) no-repeat -128px -5px;
+  width: 32px;
+  height: 32px;
+}

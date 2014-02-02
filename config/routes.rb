@@ -1,9 +1,13 @@
 Blog::Application.routes.draw do
+  root to:'welcome#index'
+
+  get "contact_page/contact"
+  get "welcome/index"
+
+  match 'contact' => 'contact#new', :via => :get
+  match 'contact' => 'contact#create', :via => :post
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-
-  # You can have the root of your site routed with "root"
-  # root 'welcome#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
