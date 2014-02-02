@@ -10,27 +10,27 @@
 }
 
 .fb {
-  background: url(/assets/smi32.png) no-repeat -9px -4px;;
+  background: image_path(/assets/smi32.png) no-repeat -9px -4px;;
   width: 32px;
   height: 32px;
   display: inline-block;
 }
 
 .fb:hover {
-  background: url(/assets/smi32.png) no-repeat -49px -4px;
+  background: image_path(/assets/smi32.png) no-repeat -49px -4px;
   width: 32px;
   height: 32px;
 }
 
 .linkedin {
-  background: url(/assets/smi32.png) no-repeat -91px -4px;
+  background: image_path(/assets/smi32.png) no-repeat -91px -4px;
   width: 32px;
   height: 32px;
   display: inline-block;
 }
 
 .linkedin:hover {
-  background: url(/assets/smi32.png) no-repeat -128px -5px;
+  background: image_path(/assets/smi32.png) no-repeat -128px -5px;
   width: 32px;
   height: 32px;
 }
